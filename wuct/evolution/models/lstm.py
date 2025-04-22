@@ -2,6 +2,8 @@
 LSTM-based evolution prediction model.
 """
 
+import os
+import random
 import torch
 import torch.nn as nn
 from dataclasses import dataclass
